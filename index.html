@@ -1,5 +1,7 @@
-<!DOCTYPE html><html lang=es><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon type=image/png href=icono.jpg><title>Tukuy Shop</title><meta name=description content="Plantilla de tienda virtual"><meta name=keywords content="tienda virtual"><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css><script>const segment = 1
-      sessionStorage.redirect = '/' + location.pathname.slice(1).split('/').slice(segment).join('/')
-      location.replace(
-        location.pathname.split('/').slice(0, 1 + segment).join('/')
-      )</script><link href=/css/app.d94998da.css rel=preload as=style><link href=/css/chunk-vendors.d755fbce.css rel=preload as=style><link href=/js/app.b4550f09.js rel=preload as=script><link href=/js/chunk-vendors.3309f032.js rel=preload as=script><link href=/css/chunk-vendors.d755fbce.css rel=stylesheet><link href=/css/app.d94998da.css rel=stylesheet></head><body><div id=app></div><script src=/js/chunk-vendors.3309f032.js></script><script src=/js/app.b4550f09.js></script></body></html>
+<!DOCTYPE html><html lang=es><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon type=image/png href=icono.jpg><title>Tukuy Shop</title><meta name=description content="Plantilla de tienda virtual"><meta name=keywords content="tienda virtual"><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css><script>(function(){
+          var redirect = sessionStorage.redirect;
+          delete sessionStorage.redirect;
+          if (redirect && redirect != location.href) {
+              history.replaceState(null, null, redirect);
+          }
+      })();</script><link href=/css/app.d94998da.css rel=preload as=style><link href=/css/chunk-vendors.d755fbce.css rel=preload as=style><link href=/js/app.b4550f09.js rel=preload as=script><link href=/js/chunk-vendors.3309f032.js rel=preload as=script><link href=/css/chunk-vendors.d755fbce.css rel=stylesheet><link href=/css/app.d94998da.css rel=stylesheet></head><body><div id=app></div><script src=/js/chunk-vendors.3309f032.js></script><script src=/js/app.b4550f09.js></script></body></html>
